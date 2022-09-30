@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar8\\Seminar8.csproj": {}
+    "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar9\\Seminar9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar8\\Seminar8.csproj": {
+    "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar9\\Seminar9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar8\\Seminar8.csproj",
-        "projectName": "Seminar8",
-        "projectPath": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar8\\Seminar8.csproj",
+        "projectUniqueName": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar9\\Seminar9.csproj",
+        "projectName": "Seminar9",
+        "projectPath": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar9\\Seminar9.csproj",
         "packagesPath": "C:\\Users\\Misha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar8\\obj\\",
+        "outputPath": "C:\\Users\\Misha\\Documents\\Программирование\\In\\-IntroductionToLanguages\\Seminar9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Misha\\AppData\\Roaming\\NuGet\\NuGet.Config"
