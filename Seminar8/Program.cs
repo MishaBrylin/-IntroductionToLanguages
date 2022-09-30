@@ -59,10 +59,10 @@ int[,] SortElements2dArray(int[,] array)
     return newSortArray;
 
 }
-// int[,] Array = CreateRandom2dArray();
+int[,] Array = CreateRandom2dArray();
 
-// Show2dArray(Array);
-// Show2dArray(SortElements2dArray(Array));
+Show2dArray(Array);
+Show2dArray(SortElements2dArray(Array));
 
 
 // Задача 56: Задайте прямоугольный двумерный массив. Напишите программу, которая будет находить строку с наименьшей суммой элементов.
@@ -94,10 +94,10 @@ int MinSumElementsRow(int[,] array)
     }
     return row + 1;
 }
-// int[,] Array2 = CreateRandom2dArray();
-// Show2dArray(Array2);
+int[,] Array2 = CreateRandom2dArray();
+Show2dArray(Array2);
 
-// Console.WriteLine($"The row with the smallest sum of elements: {MinSumElementsRow(Array2)}");
+Console.WriteLine($"The row with the smallest sum of elements: {MinSumElementsRow(Array2)}");
 
 
 // Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
@@ -135,11 +135,11 @@ void MatrixMultiplication(int[,] array, int[,] array2)
     }
 }
 
-// int[,] Matrix1 = CreateRandom2dArray();
-// int[,] Matrix2 = CreateRandom2dArray();
-// Show2dArray(Matrix1);
-// Show2dArray(Matrix2);
-// MatrixMultiplication(Matrix1, Matrix2);
+int[,] Matrix1 = CreateRandom2dArray();
+int[,] Matrix2 = CreateRandom2dArray();
+Show2dArray(Matrix1);
+Show2dArray(Matrix2);
+MatrixMultiplication(Matrix1, Matrix2);
 // Задача 60. ...Сформируйте трёхмерный массив из неповторяющихся двузначных чисел. Напишите программу, 
 // которая будет построчно выводить массив, добавляя индексы каждого элемента.
 int[,,] CreateRandom3dArray()
@@ -181,55 +181,55 @@ void Show3dArray(int[,,] array)
     Console.WriteLine();
 
 }
-// int[,,] Array3 = CreateRandom3dArray();
-// Show3dArray(Array3);
+int[,,] Array3 = CreateRandom3dArray();
+Show3dArray(Array3);
 
-// Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+// Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.  (Не нашел решения)
 
-int[,] CreateSpiralArray()
-{
-    Console.Write("Imput numbers of rows: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Imput numbers of columns ");
-    int columns = Convert.ToInt32(Console.ReadLine());
-
-
-    int[,] newArray = new int[rows, columns];
-    int j = 0;
-    int i = 0;
-    int n = 0;
-    int number = 1;
-    if (n <= rows * columns)
-    {
-        if (j < columns - n)
-        {
-            newArray[i, j] = number;
-            number++;
-            j++;
-        }
-        if (i < rows - n)
-        {
-            newArray[i, j] = number;
-            number++;
-            i++;
-        }
-        if (j > 0 + n)
-        {
-            newArray[i, j] = number;
-            number++;
-            i--;
-        }
-        n++;
-        if (i > 0 + n)
-        {
-            newArray[i, j] = number;
-            number++;
-            i--;
-        }
-    }
+// int[,] CreateSpiralArray()
+// {
+//     Console.Write("Imput numbers of rows: ");
+//     int rows = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Imput numbers of columns ");
+//     int columns = Convert.ToInt32(Console.ReadLine());
 
 
-    return newArray;
-}
-int[,] Array4 = CreateSpiralArray();
-Show2dArray(Array4);
+//     int[,] newArray = new int[rows, columns];
+//     int j = 0;
+//     int i = 0;
+//     int n = 0;
+//     int number = 1;
+//     if (n <= rows * columns)
+//     {
+//         if (j < columns - n)
+//         {
+//             newArray[i, j] = number;
+//             number++;
+//             j++;
+//         }
+//         if (i < rows - n)
+//         {
+//             newArray[i, j] = number;
+//             number++;
+//             i++;
+//         }
+//         if (j > 0 + n)
+//         {
+//             newArray[i, j] = number;
+//             number++;
+//             i--;
+//         }
+//         n++;
+//         if (i > 0 + n)
+//         {
+//             newArray[i, j] = number;
+//             number++;
+//             i--;
+//         }
+//     }
+
+
+//     return newArray;
+// }
+// int[,] Array4 = CreateSpiralArray();
+// Show2dArray(Array4);
